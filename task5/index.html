@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>task5</title>
+</head>
+<body>
+   <div class='content-wrapper'>
+      <div class="input-wrapper">
+      <h2 class="title">Номер страницы</h2>
+      <div class="input">
+         <input type="text" id="n1" placeholder="Введите номер страницы: от 1 до 10">
+      </div>
+      </div>
+      <div class="input-wrapper">
+      <h2 class='title'>Лимит</h2>
+      <div class="input">
+         <input type="text" id="n2" placeholder="Введите кол-во картинок: от 1 до 10">
+      </div>
+      </div>
+      <div class='btn-wrapper'>
+      <h2 class='title'>Запрос</h2>
+      <button class="btn btn-request">Click Me</button>
+      </div>
+      <div class='result j-result'>result</div>
+   </div>
+   <style>
+      .content-wrapper{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      .card-image {
+      width: 200px;
+      height: 200px;
+      }
+      .title{
+         font-size: 22px;
+         text-align: center;
+         margin-bottom: 6px;
+      }
+      .card-image {
+         display: block;
+      }
+      input {
+         width: 300px;
+         margin-right: 10px;
+      }
+      .input {
+         margin: 10px;
+         display: flex;
+         justify-content: center;
+      }
+      .btn{
+         padding: 10px;
+         margin-bottom: 20px;
+      }
+   </style>
+   <script src="./script.js"></script>
+</body>
+</html>
